@@ -21,7 +21,7 @@
         }
         
         #inicio .contenido header {
-            background-color: rgba(0, 0, 0, .8);
+            background-color: rgba(0, 27, 41, .8);
             position: fixed;
             width: 100%;
             z-index: 100;
@@ -39,7 +39,7 @@
         
         #inicio .contenido header .contenido-header h1 {
             text-align: center;
-            color: #ff5080;
+            color: #08AFF3;
         }
         
         #inicio .contenido header .contenido-header nav ul {
@@ -57,7 +57,7 @@
         }
         
         #inicio .contenido header .contenido-header nav ul li a:hover {
-            color: #ff5080;
+            color: #23A1DB;
         }
         
         #inicio .contenido header .contenido-header .redes a {
@@ -69,11 +69,11 @@
         }
         
         #inicio .contenido header .contenido-header .redes a:hover {
-            color: #ff5080;
+            color: #08AFF3;
         }
         
         #inicio .contenido header .contenido-header .seleccionado {
-            color: #ff5080;
+            color: #08AFF3;
         }
         
         #inicio .contenido .presentacion {
@@ -95,14 +95,14 @@
         }
         
         #inicio .contenido .presentacion h2 {
-            font-size: 55px;
+            font-size: 40px;
             margin-bottom: 25px;
             text-align: center;
         }
         
         #inicio .contenido .presentacion h2 span {
-            font-size: 25px;
-            color: #ff5080;
+            font-size: 35px;
+            color: #08AFF3;
         }
         
         #inicio .contenido .presentacion .descripcion {
@@ -126,7 +126,7 @@
         }
         
         #inicio .contenido .presentacion a:hover {
-            background-color: #ff5080;
+            background-color: #08AFF3;
         }
         
         #icono-nav {
@@ -163,6 +163,7 @@
         
         #sobremi .sobremi .titulo-seccion {
             font-size: 22px;
+            font-weight: bold;
             text-transform: uppercase;
             color: #111135;
             text-decoration: underline;
@@ -178,7 +179,7 @@
         }
         
         #sobremi .sobremi h2 span {
-            color: #ff5080;
+            color: #08AFF3;
         }
         
         #sobremi .sobremi h3 {
@@ -208,7 +209,7 @@
         }
         
         #sobremi .sobremi a:hover {
-            background-color: #ff5080;
+            background-color: #208ABA;
             color: #fff;
         }
         /* *********************/
@@ -240,7 +241,7 @@
         
         #servicios .fila .servicio {
             max-width: 350px;
-            background-color: #fff;
+            background-color: #23A1DB;
             padding: 30px;
             margin: 0 5px;
             border-radius: 5px;
@@ -256,13 +257,14 @@
             width: 60px;
             height: 60px;
             border-radius: 50%;
-            background-color: #d3d3d3;
+            background-color: #ffff;
             padding: 20px;
             margin-bottom: 25px;
         }
         
         #servicios .fila .servicio h4 {
             font-size: 22px;
+            color: #ffff;
             margin-bottom: 25px;
         }
         
@@ -277,23 +279,25 @@
             list-style: none;
             display: flex;
             justify-content: space-around;
+            color: #ffff;
             margin-bottom: 10px;
         }
         
         #servicios .fila .servicio p {
             font-size: 14px;
             line-height: 22px;
+            color: #ffff
         }
         /* *********************/
         /* seccion S K I L L S */
         /* *********************/
         
         .contenedor-skills {
-            background: linear-gradient( #eb5a5acc, rgba(33, 16, 16, 0.8)), url("img/fondo-skills.jpg");
+            background: linear-gradient( #08AFF3, rgba(0, 27, 41, .8)), url("img/fondo-skills.jpg");
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: cover;
-            color: #fff;
+            color: #ffff;
             background-position: center center;
             padding: 100px 0;
             text-align: center;
@@ -357,7 +361,7 @@
                 width: 0;
             }
             100% {
-                width: 95%;
+                width: 75%;
             }
         }
         
@@ -366,7 +370,7 @@
                 width: 0;
             }
             100% {
-                width: 90%;
+                width: 75%;
             }
         }
         
@@ -384,7 +388,7 @@
                 width: 0;
             }
             100% {
-                width: 85%;
+                width: 90%;
             }
         }
         /* *********************/
@@ -437,8 +441,8 @@
         #portfolio .fila .proyecto .info {
             position: absolute;
             left: 0px;
-            background-color: rgba(0, 0, 0, 0.8);
-            color: #ff5080;
+            background-color: rgba(0, 27, 41, .8);
+            color: #08AFF3;
             width: 100%;
             padding: 10px;
             opacity: 0;
@@ -512,7 +516,7 @@
         }
         
         #contacto .btn-enviar:hover {
-            background-color: #ff5080;
+            background-color: #08AFF3;
             color: #fff;
         }
         /* *********************/
@@ -520,7 +524,7 @@
         /* *********************/
         
         footer {
-            background-color: #000;
+            background-color: #081B29;
             color: #fff;
             text-align: center;
             padding: 30px 0;
